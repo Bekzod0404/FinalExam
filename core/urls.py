@@ -23,6 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('task1/', include('apps.task1.urls')),
     path('', include('apps.task2.urls')),
-    # path('task3', include('apps.task3.urls')),
+    path('task3', include('apps.task3.urls')),
     # path('task4', include('apps.task4.urls')),
 ]
